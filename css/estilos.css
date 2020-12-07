@@ -1,0 +1,22 @@
+
+body {
+   background-color: hsl(89, 43%, 51%);}
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(122, 162, 210, 0.61), rgba(219, 212, 180, 0.61), rgba(204, 148, 192, 0.61));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@font-face {
+    font-family: indie;
+    src: url(font/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+* {
+    font-family: 'indie';
+}
+
+h1 {
+    text-align: center;
+}
